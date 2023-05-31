@@ -1,0 +1,117 @@
+.todo-list-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+   
+  }
+  
+  .title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #fff;
+  }
+  .title h2{
+    font-size:28px;
+    color:rgb(61, 58, 58);
+  }
+  
+  .input-field {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+    margin-right: 5px;
+  }
+  
+  .add-button {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    background-color: #a3e78e;
+    color: #23552b;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .todo-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 400px;
+  }
+  
+  .todo-item {
+    font-size: 18px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .todo-item:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .list-item-done {
+    text-decoration: line-through;
+    color:red;
+    margin-right:20px
+  }
+  .list-item-undone{
+    text-decoration: none;
+    color:green;
+    margin-right:20px;
+  }
+  
+  .buttons {
+    display: flex;
+  }
+  
+  .done-button,
+  .delete-button ,
+  .edit-button{
+    padding: 5px;
+    margin-right: 5px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 24px;
+    width: 24px;
+    border-radius: 15%;
+  }
+  
+  .done-button {
+    
+    color: #fff;
+    background-image: url("https://www.clipartmax.com/png/middle/301-3011315_icon-check-green-tick-transparent-background.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  
+  .delete-button {
+    
+    color: #fff;
+    background-image: url("https://openclipart.org/image/800px/325437");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .edit-button{
+    
+    color:#fff;
+    background-image: url("https://cdn.onlinewebfonts.com/svg/img_221007.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .button-box{
+    display:flex;
+  }
+  
